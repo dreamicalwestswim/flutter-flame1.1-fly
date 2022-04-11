@@ -2,15 +2,15 @@
 
 flame1.1重写打苍蝇
 
-## Getting Started
+## 项目介绍
 
-This project is a starting point for a Flutter application.
+前一阵发现了flutter有配套的游戏框架flame，早些年鄙人属于狂热小游戏开发爱好者，这玩意再一次激起了我的兴趣！于是就决定玩一玩，国内这方面的资料特别少。   
+有那么几篇简单的demo教程并且api也非常的老，于是自己决定用最新版api重写一遍原作者 [Japa Alekhin Llemos](https://jap.alekhin.io/2d-casual-mobile-game-tutorial-flame-flutter-part-1) 开发的打苍蝇游戏。
 
-A few resources to get you started if this is your first Flutter project:
+目前flame最新版是1.1，经过学习与此次练手发现增强了很多实用的功能，以目前的能力结合各类第三方游戏开发工具，开发稍重一点的小游戏还是完全可以的，但是离专业的游戏引擎差距还是非常巨大的。
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+优势：
+- 基于flutter提供的原生ui渲染，在性能上要远高于基于webview渲染的h5游戏引擎，完全可以避免h5游戏在手机上发热耗电的痛点。
+- 以目前来看跨三端是可行的，ios、android app端表现完美，h5端也可以凑合着用。
+- 最后一点就是轻量，简单易学，相比同级别基于native原生渲染的游戏引擎要简单的多，就是目前提供的功能还是太少了，能力越强责任越重！如果您足够优秀，完全可以在flame基础上增强或者改造属于自己的游戏引擎。
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
